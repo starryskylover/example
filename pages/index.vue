@@ -226,7 +226,7 @@ onMounted(() => {
         </Block>
 
         <Block class="flex flex-col gap-[16px] w-[420px] pb-[20px] rounded-[10px] bg-[#f5f4f4]">
-          <p class="font-medium text-[18px] leading-[20px]">Адрес</p>
+          <p class="font-medium font-size-[18px] leading-[20px]">Адрес</p>
           <Check is-with-checkbox 
           :items="['Фактический адрес совпадает с юридическим', 'Почтовый адрес совпадает с юридическим']"
           :selected-values="checkSelectedValues"
